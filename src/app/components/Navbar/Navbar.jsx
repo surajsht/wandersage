@@ -15,6 +15,9 @@ const Navbar = () => {
             return <li key={id}>{item}</li>;
           })}
         </ul>
+
+        <button> Sign in </button>
+        <button> Sign up </button>
       </div>
     </div>
   );
