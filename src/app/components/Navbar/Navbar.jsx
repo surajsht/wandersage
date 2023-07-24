@@ -15,7 +15,7 @@ const Navbar = () => {
             return (
               <li
                 key={id}
-                className="cursor-pointer text-[#929292] first:text-brand"
+                className="cursor-pointer text-[#929292] first:font-semibold first:text-brand"
               >
                 {item}
               </li>
