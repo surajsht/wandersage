@@ -39,7 +39,7 @@ const Offcanvas = () => {
         className="absolute left-4 top-4"
         onClick={() => closeOffcanvas()}
       >
-        <IoClose />
+        <IoClose className="h-5 w-5" />
       </button>
     </div>
   );
