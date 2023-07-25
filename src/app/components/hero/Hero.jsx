@@ -3,12 +3,12 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div className="container flex h-screen items-center space-x-[24px]">
-      <div className="w-1/2">
-        <h2 className="mb-6 font-secondary text-[51px] font-semibold leading-[71.4px]">
+    <div className="container mb-6 lg:flex lg:h-screen lg:items-center lg:gap-6">
+      <div className="mb-10 lg:w-1/2">
+        <h2 className="mb-4 font-secondary text-[36px] font-semibold leading-[50.4px] lg:mb-6 lg:text-[41px] lg:leading-[57.4px] xl:text-[51px] xl:leading-[71.4px]">
           Discover the World with Unforgettable Journeys
         </h2>
-        <p className="mb-10">
+        <p className="mb-6 lg:mb-8">
           Embark on a journey of a lifetime with our expertly crafted travel
           experiences. Explore breathtaking destinations, immerse yourself in
           vibrant cultures, and create unforgettable memories. Let us be your
@@ -20,30 +20,30 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="w-1/2">
-        <div className="flex gap-6">
-          <div className="relative h-[628px] w-[397px]">
+      <div className="lg:w-1/2">
+        <div className="sm:flex sm:gap-4">
+          <div className="relative mb-4 h-[260px] sm:h-[400px] sm:w-1/2 xl:h-[628px] xl:w-4/6">
             <Image
               src="/hero-1.jpg"
               fill={true}
-              className="rounded-[213px] object-cover"
+              className="rounded-[24px] object-cover xl:rounded-[214px]"
             />
           </div>
 
-          <div>
-            <div className="relative mb-6 h-[302px] w-[187px]">
+          <div className="sm:w-1/2 xl:w-2/6">
+            <div className="relative mb-4 h-[126px] sm:h-[192px] xl:h-[302px]">
               <Image
                 src="/hero-2.jpg"
                 fill={true}
-                className="rounded-[213px] object-cover"
+                className="rounded-[24px] object-cover xl:rounded-[214px]"
               />
             </div>
 
-            <div className="relative h-[302px] w-[187px]">
+            <div className="relative h-[126px] sm:h-[192px] xl:h-[302px]">
               <Image
                 src="/hero-3.jpg"
                 fill={true}
-                className="rounded-[213px] object-cover"
+                className="rounded-[24px] object-cover xl:rounded-[214px]"
               />
             </div>
           </div>

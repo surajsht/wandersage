@@ -30,7 +30,7 @@ module.exports = {
       },
       padding: {
         DEFAULT: "16px",
-        sm: "0",
+        lg: "0",
       },
     },
   },

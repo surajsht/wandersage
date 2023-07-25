@@ -8,7 +8,7 @@ const Navbar = () => {
   let { openOffcanvas } = CustomContext();
 
   return (
-    <div className="container absolute left-0 right-0 top-9 flex items-center justify-between">
+    <div className="container mb-6 flex items-center justify-between py-5 lg:absolute lg:left-0 lg:right-0 lg:top-9 lg:mb-0 lg:py-0">
       <div className="cursor-pointer text-2xl	font-bold">
         Wander<span className="text-brand">Sage</span>
       </div>
