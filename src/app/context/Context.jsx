@@ -25,9 +25,9 @@ const Context = ({ children }) => {
   );
 };
 
-const customContext = () => {
+const CustomContext = () => {
   return useContext(GlobalContext);
 };
 
 export default Context;
-export { customContext };
+export { CustomContext };

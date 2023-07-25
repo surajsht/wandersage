@@ -2,10 +2,10 @@
 
 import NavbarItem from "../../Data";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { customContext } from "@/app/context/Context";
+import { CustomContext } from "@/app/context/Context";
 
 const Navbar = () => {
-  let { openOffcanvas } = customContext();
+  let { openOffcanvas } = CustomContext();
 
   return (
     <div className="container absolute left-0 right-0 top-9 flex items-center justify-between">

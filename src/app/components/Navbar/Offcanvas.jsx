@@ -1,11 +1,11 @@
 "use client";
 
-import { customContext } from "@/app/context/Context";
+import { CustomContext } from "@/app/context/Context";
 import NavbarItem from "../../Data";
 import { IoClose } from "react-icons/io5";
 
 const Offcanvas = () => {
-  let { offcanvas, closeOffcanvas } = customContext();
+  let { offcanvas, closeOffcanvas } = CustomContext();
 
   return (
     <div
