@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Open_Sans, Playfair_Display } from "next/font/google";
+import Context from "./context/Context";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -22,7 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${openSans.variable} ${PlayFair.variable}`}>
-      <body className="font-primary">{children}</body>
+      <body className="font-primary">
+        <Context>{children}</Context>
+      </body>
     </html>
   );
 }
