@@ -11,7 +11,7 @@ const Offcanvas = () => {
     <div
       className={`fixed bottom-0 top-0 w-[200px] bg-gray-200 p-8 pt-14 transition-all duration-700 ease-in-out lg:hidden ${
         offcanvas ? "right-0" : "right-[-200px]"
-      } z-10`}
+      } z-50`}
     >
       <ul className="mb-8 space-y-4">
         {NavbarItem.NavbarItem.map((data) => {
