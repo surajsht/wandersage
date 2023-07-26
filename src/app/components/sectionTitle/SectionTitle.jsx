@@ -1,6 +1,6 @@
 const SectionTitle = ({ title, description }) => {
   return (
-    <div className="container mb-7 text-center lg:mb-9">
+    <div className="mb-7 text-center lg:mb-9">
       <h2 className="mb-3 font-secondary text-[28px] font-extrabold leading-[37.5px] lg:text-[36px] lg:leading-[43.2px]">
         {title}
       </h2>
