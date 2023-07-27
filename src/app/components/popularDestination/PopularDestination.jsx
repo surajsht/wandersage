@@ -27,7 +27,7 @@ const PopularDestination = () => {
                 />
               </div>
               <div className="absolute bottom-4 left-4 z-20 flex items-center gap-1 rounded-lg bg-white px-6 py-1 text-black">
-                <MdLocationOn className="h-5 w-5 text-[#747474]" />
+                <MdLocationOn className="h-5 w-5 text-[#5d80df]" />
                 <h2 className="font-bold">{title}</h2>
               </div>
             </div>
