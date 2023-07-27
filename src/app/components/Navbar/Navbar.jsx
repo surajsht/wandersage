@@ -1,6 +1,6 @@
 "use client";
 
-import NavbarItem from "../../Data";
+import NavbarItem from "@/app/Data";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { CustomContext } from "@/app/context/Context";
 

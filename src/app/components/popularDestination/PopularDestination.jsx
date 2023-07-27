@@ -1,5 +1,5 @@
 import SectionTitle from "../sectionTitle/SectionTitle";
-import { PopularDestinationData } from "../../Data";
+import { PopularDestinationData } from "@/app/Data";
 import Image from "next/image";
 import styles from "./popularDestination.module.css";
 import { MdLocationOn } from "react-icons/md";
