@@ -118,5 +118,37 @@ const OurServiceData = [
   },
 ];
 
+const BlogData = [
+  {
+    id: 0,
+    title:
+      "Discover the Hidden Gems: Off-the-Beaten-Path Destinations for Adventurous Travelers",
+    description:
+      "Uncover a world beyond the ordinary with our guide to lesser-known, off-the-beaten-path destinations that promise unforgettable adventures. From remote islands to secluded mountain retreats, embark on a journey of discovery with our travel agency's handpicked selection of unique and extraordinary destinations.",
+    image: "/blog-1.jpg",
+  },
+  {
+    id: 1,
+    title:
+      "Beyond Borders: Embrace Cultural Diversity on a Multi-Continent Tour",
+    image: "/blog-2.jpg",
+  },
+  {
+    id: 2,
+    title: "Timeless Romance: Unraveling Europe's Most Enchanting Love Stories",
+    image: "/blog-3.jpg",
+  },
+  {
+    id: 3,
+    title: "Escape to Paradise: Unveiling the World's Most Stunning Getaways",
+    image: "/blog-4.jpg",
+  },
+  {
+    id: 4,
+    title: "Into the Wild: Unforgettable Wildlife Safaris in Africa",
+    image: "/blog-5.jpg",
+  },
+];
+
 export default { NavbarItem };
-export { PopularDestinationData, OurServiceData };
+export { PopularDestinationData, OurServiceData, BlogData };

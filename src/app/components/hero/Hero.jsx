@@ -25,6 +25,7 @@ const Hero = () => {
           <div className="relative mb-4 h-[260px] sm:h-[400px] sm:w-1/2 xl:h-[628px] xl:w-4/6">
             <Image
               src="/hero-1.jpg"
+              alt="hero-image-1"
               fill={true}
               className="rounded-[24px] object-cover xl:rounded-[214px]"
             />
@@ -34,6 +35,7 @@ const Hero = () => {
             <div className="relative mb-4 h-[126px] sm:h-[192px] xl:h-[302px]">
               <Image
                 src="/hero-2.jpg"
+                alt="hero-image-2"
                 fill={true}
                 className="rounded-[24px] object-cover xl:rounded-[214px]"
               />
@@ -42,6 +44,7 @@ const Hero = () => {
             <div className="relative h-[126px] sm:h-[192px] xl:h-[302px]">
               <Image
                 src="/hero-3.jpg"
+                alt="hero-image-3"
                 fill={true}
                 className="rounded-[24px] object-cover xl:rounded-[214px]"
               />

@@ -22,6 +22,7 @@ const PopularDestination = () => {
               <div className={`relative h-60 w-full ${styles.popularImage}`}>
                 <Image
                   src={image}
+                  alt={`popular-image-${id}`}
                   fill={true}
                   className="rounded-3xl object-cover"
                 />
