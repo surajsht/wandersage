@@ -4,6 +4,7 @@ import Blog from "./components/blog/Blog";
 import Hero from "./components/hero/Hero";
 import OurService from "./components/ourService/OurService";
 import PopularDestination from "./components/popularDestination/PopularDestination";
+import Testimonial from "./components/testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PopularDestination />
       <OurService />
       <Blog />
+      <Testimonial />
     </>
   );
 }

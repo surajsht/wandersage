@@ -6,6 +6,7 @@ import { PiFlowerLotus } from "react-icons/pi";
 import { MdFamilyRestroom } from "react-icons/md";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { GiJeep } from "react-icons/gi";
+import { AiFillStar } from "react-icons/ai";
 
 const NavbarItem = [
   {
@@ -150,5 +151,43 @@ const BlogData = [
   },
 ];
 
+const loopStar = Array.from({ length: 5 });
+
+const TestimonialData = [
+  {
+    id: 0,
+    star: loopStar.map((_, index) => {
+      return <AiFillStar key={index} />;
+    }),
+    description:
+      "My experience with this travel agency was nothing short of amazing! From the moment I contacted them to plan my dream vacation, their team of experts was attentive, friendly, and highly professional. ",
+    image: "/testimonial-1.jpg",
+    name: "AdventureLover87",
+    jobTitle: "Software Engineer",
+  },
+  {
+    id: 1,
+    star: loopStar.map((_, index) => {
+      return <AiFillStar key={index} />;
+    }),
+    description:
+      "I had the pleasure of booking my family's vacation through this travel agency, and I couldn't be happier with the results. The entire process, from the initial consultation to the journey back home, was seamless and well-organized.",
+    image: "/testimonial-2.jpg",
+    name: "Jenny Andres",
+    jobTitle: "Footballer",
+  },
+  {
+    id: 2,
+    star: loopStar.map((_, index) => {
+      return <AiFillStar key={index} />;
+    }),
+    description:
+      "Wow! What an incredible travel agency! They truly know how to curate extraordinary travel experiences. I had the privilege of working with their dedicated team, and they went above and beyond to ensure my solo journey was unforgettable. ",
+    image: "/testimonial-3.jpg",
+    name: "Tom Parker",
+    jobTitle: "Actor",
+  },
+];
+
 export default { NavbarItem };
-export { PopularDestinationData, OurServiceData, BlogData };
+export { PopularDestinationData, OurServiceData, BlogData, TestimonialData };
