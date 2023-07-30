@@ -10,7 +10,7 @@ const Testimonial = () => {
         description="Our clients' testimonials speak volumes about the dedication and commitment we pour into every travel itinerary. "
       />
 
-      <div className="space-y-6">
+      <div className="space-y-6 md:grid md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-3">
         {TestimonialData.map((data) => {
           let { id, star, description, image, name, jobTitle } = data;
 

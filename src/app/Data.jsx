@@ -160,7 +160,7 @@ const TestimonialData = [
       return <AiFillStar key={index} />;
     }),
     description:
-      "My experience with this travel agency was nothing short of amazing! From the moment I contacted them to plan my dream vacation, their team of experts was attentive, friendly, and highly professional. ",
+      "I've always dreamed of going on a safari, and thanks to this travel agency, that dream became a reality. They meticulously planned every aspect of the safari, ensuring we had an immersive and unforgettable wildlife experience.",
     image: "/testimonial-1.jpg",
     name: "AdventureLover87",
     jobTitle: "Software Engineer",
