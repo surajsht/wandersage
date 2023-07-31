@@ -246,6 +246,77 @@ const PopularDestinationDataTwo = [
   },
 ];
 
+const FooterDetail = [
+  {
+    id: 0,
+    title: "About Us",
+    description:
+      "Welcome to ExploreNow, your gateway to exhilarating expeditions and thrilling escapades! At ExploreNow, we are dedicated to making your travel dreams a reality.",
+  },
+  {
+    id: 1,
+    title: "Gallery",
+    images: [
+      {
+        id: 0,
+        image: "/popular-2.jpg",
+      },
+      {
+        id: 1,
+        image: "/hero-2.jpg",
+      },
+      {
+        id: 2,
+        image: "/popular-6.jpg",
+      },
+      {
+        id: 3,
+        image: "/popular-5.jpg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Contact",
+    items: [
+      {
+        id: 0,
+        link: "explorenow@gmail.com",
+      },
+      {
+        id: 1,
+        link: "+1-567-124-44227",
+      },
+      {
+        id: 2,
+        link: "184 Main Street East Perl Habour 8007",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Helpful Links",
+    items: [
+      {
+        id: 0,
+        link: "Destinations",
+      },
+      {
+        id: 1,
+        link: "Supports",
+      },
+      {
+        id: 2,
+        link: "Terms and Conditions",
+      },
+      {
+        id: 3,
+        link: "Privacy",
+      },
+    ],
+  },
+];
+
 export default { NavbarItem };
 export {
   PopularDestinationData,
@@ -253,4 +324,5 @@ export {
   BlogData,
   TestimonialData,
   PopularDestinationDataTwo,
+  FooterDetail,
 };
