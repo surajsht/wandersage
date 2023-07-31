@@ -26,7 +26,7 @@ const PopularDestinationTwo = () => {
               </div>
 
               <div className="flex items-center justify-between">
-                <h2 className="font-secondary text-base font-semibold leading-[19.2px]">
+                <h2 className="font-secondary text-lg font-semibold leading-[25.2px]">
                   {title}
                 </h2>
 
