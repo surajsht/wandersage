@@ -5,6 +5,7 @@ import Cta from "./components/cta/Cta";
 import Hero from "./components/hero/Hero";
 import OurService from "./components/ourService/OurService";
 import PopularDestination from "./components/popularDestination/PopularDestination";
+import PopularDestinationTwo from "./components/popularDestinationTwo/PopularDestinationTwo";
 import Testimonial from "./components/testimonial/Testimonial";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Blog />
       <Testimonial />
       <Cta />
+      <PopularDestinationTwo />
     </>
   );
 }

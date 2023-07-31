@@ -189,5 +189,68 @@ const TestimonialData = [
   },
 ];
 
+const PopularDestinationDataTwo = [
+  {
+    id: 0,
+    image: "/popular-destination-1.jpg",
+    title: "Kathmandu, Nepal",
+    icon: <AiFillStar />,
+    rating: "4.5",
+    date: "Sep 1-7",
+    price: "52",
+  },
+  {
+    id: 1,
+    image: "/popular-destination-2.jpg",
+    title: "Castle in Clackmannanshire",
+    icon: <AiFillStar />,
+    rating: "4.8",
+    date: "Aug 3 -14",
+    price: "114",
+  },
+  {
+    id: 2,
+    image: "/popular-destination-3.jpg",
+    title: "Cottage in Huntsville",
+    icon: <AiFillStar />,
+    rating: "4.0",
+    date: "May 7 - 12",
+    price: "87",
+  },
+  {
+    id: 3,
+    image: "/popular-destination-4.jpg",
+    title: "Home in El Port de la Selva,, Spain",
+    icon: <AiFillStar />,
+    rating: "4.4",
+    date: "Dec 8 -14",
+    price: "96",
+  },
+  {
+    id: 4,
+    image: "/popular-destination-5.jpg",
+    title: "Villa in Kuta Utara",
+    icon: <AiFillStar />,
+    rating: "4.7",
+    date: "June 2 - 11",
+    price: "74",
+  },
+  {
+    id: 5,
+    image: "/popular-destination-6.jpg",
+    title: "Villa in Skala, Greece",
+    icon: <AiFillStar />,
+    rating: "4.9",
+    date: "April 6 -17",
+    price: "147",
+  },
+];
+
 export default { NavbarItem };
-export { PopularDestinationData, OurServiceData, BlogData, TestimonialData };
+export {
+  PopularDestinationData,
+  OurServiceData,
+  BlogData,
+  TestimonialData,
+  PopularDestinationDataTwo,
+};
