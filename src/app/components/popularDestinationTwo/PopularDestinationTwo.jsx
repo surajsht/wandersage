@@ -10,7 +10,7 @@ const PopularDestinationTwo = () => {
         description=" Get ready to embark on an extraordinary journey with our selection of popular destinations that are sure to captivate your senses and ignite your wanderlust."
       />
 
-      <div className="grid gap-4">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {PopularDestinationDataTwo.map((data) => {
           let { id, image, title, icon, rating, date, price } = data;
 
