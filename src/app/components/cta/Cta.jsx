@@ -1,6 +1,6 @@
 const Cta = () => {
   return (
-    <div className="container mb-12 flex flex-col items-center justify-center bg-brand py-6 text-center md:px-6 lg:mb-16 lg:py-16">
+    <div className="container mb-12 flex flex-col items-center justify-center bg-brand py-6 text-center sm:max-w-[544px] sm:rounded-lg md:max-w-[736px] md:px-6 lg:mb-16 lg:max-w-[991px] lg:rounded-2xl lg:py-16 xl:max-w-[1240px]">
       <h2 className="md:leading[57.4px] mb-6 font-secondary text-[32px] font-bold leading-[44.8px] text-white md:text-[41px] xl:text-[51px] xl:leading-[71.4px]">
         Subscribe newsletter & get latest news and updates
       </h2>
