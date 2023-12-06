@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="container mb-12 lg:mb-16">
+    <div className="container">
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {FooterDetail.map((data) => {
           let { id, title, images, description, items } = data;
